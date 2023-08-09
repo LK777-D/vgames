@@ -18,7 +18,7 @@
 }
 
 .recomendedcontent img {
-  min-height: 40%;
+  min-height: 35%;
   min-width: 30%;
   transition: transform 0.3s ease;
   border-radius: 10px;

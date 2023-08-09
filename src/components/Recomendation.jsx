@@ -1,20 +1,17 @@
 import "./Recomendation.css";
-import gta from "../assets/gta5.jpg";
-import mafia from "../assets/mafia.jpg";
-import fifa from "../assets/fifa.jpg";
-import mobile from "../assets/legends.jpeg";
-import nba from "../assets/nba.jpg";
-const Recomendation = () => {
+
+/* eslint-disable react/prop-types */
+const Recomendation = (props) => {
   return (
     <section className="recomendation">
-      <h3>Suggested For You</h3>
+      <h2>{props.text}</h2>
       <div className="reccontainer">
         <div className="recomendedcontent">
-          <img src={gta} />
-          <img src={mafia} />
-          <img src={fifa} />
-          <img src={nba} />
-          <img src={mobile} />
+          <img src={props.img1} />
+          <img src={props.img2} />
+          <img src={props.img3} />
+          <img src={props.img4} />
+          <img src={props.img5} />
         </div>
       </div>
     </section>

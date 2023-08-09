@@ -17,6 +17,10 @@
 .clearbtn button {
   width: 70%;
 }
+.emptyfavs {
+  width: 100%;
+  text-align: center;
+}
 
 @media (min-width: 600px) {
   .favs {
