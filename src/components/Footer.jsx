@@ -43,7 +43,7 @@ const Footer = () => {
           <p>
             Email: <a href="mailto:info@vgames.com">info@vgames.com</a>
           </p>
-          <p>Phone: +123-456-7777</p>
+          <p>Phone: +123-456-1777</p>
         </div>
       </div>
       <div className="footer-bottom">
