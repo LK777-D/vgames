@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet&display=swap");
+
+.alert {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10000000000000;
+  background-color: rgb(119, 4, 119);
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Handjet", cursive;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  /* display: none; */
+  width: 100%;
+  text-align: center;
+  animation: slideDown 0.3s ease-in-out;
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

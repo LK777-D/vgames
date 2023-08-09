@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(40, 19, 75, 1) 23%,
+    rgba(34, 3, 50, 1) 85%
+  );
+  font-family: "Ysabeau Office", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  /* overflow: hidden; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+button {
+  cursor: pointer;
+}

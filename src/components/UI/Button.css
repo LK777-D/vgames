@@ -1,0 +1,22 @@
+.mainbtn {
+  min-width: 100px;
+  min-height: 35px;
+  background: none;
+  color: #eee;
+  font-weight: bolder;
+  padding: 0.7rem;
+  color: #eee;
+  background: rgb(99, 24, 99, 0.7);
+  border: none;
+  border-radius: 5px;
+  transition: background 1s ease;
+}
+
+.mainbtn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(91, 83, 237, 1) 0%,
+    rgba(124, 66, 222, 1) 16%,
+    rgba(161, 57, 215, 1) 85%
+  );
+}
