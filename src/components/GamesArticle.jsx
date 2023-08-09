@@ -1,6 +1,6 @@
-import "./Article.css";
+import "./GamesArticle.css";
 
-const Article = () => {
+const GamesArticle = () => {
   return (
     <details className="details">
       <summary>Poular Video Games (Click To Expand)</summary>
@@ -22,4 +22,4 @@ const Article = () => {
   );
 };
 
-export default Article;
+export default GamesArticle;

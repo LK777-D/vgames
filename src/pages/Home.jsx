@@ -1,15 +1,15 @@
-import Article from "../components/ARticle";
 import About from "../components/About";
 import Carousel from "../components/Carousel";
 import GamesList from "../components/GamesList";
 import Quiz from "../components/Quiz";
+import GamesArticle from "../components/GamesArticle";
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
       <GamesList text="Search Results For" />
-      <Article />
+      <GamesArticle />
       <Carousel />
       <div className="seperate"></div>
       <Quiz />
