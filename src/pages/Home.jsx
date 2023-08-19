@@ -17,8 +17,9 @@ const Home = () => {
       <GamesList text="Search Results For" />
       <GamesArticle />
       <Carousel />
-      <div className="seperate"></div>
+      <div className="line"></div>
       <Quiz />
+      <div className="line"></div>
       <Recomendation
         img1={samp}
         img2={nfs}

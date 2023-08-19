@@ -33,7 +33,7 @@ function App() {
   };
 
   const addToFavsHandler = (game) => {
-    setFavs([...favs, game]);
+    setFavs((prevFavs) => [...prevFavs, game]);
     setfavsColor(true);
     setShowAddAlert(true);
     setTimeout(() => {

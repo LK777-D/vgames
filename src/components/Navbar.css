@@ -102,7 +102,7 @@
   .navbar {
     flex-direction: row;
     max-height: 2rem;
-    gap: 5rem;
+    gap: 15rem;
     max-height: 8rem;
     padding: 1rem;
     width: 100%;

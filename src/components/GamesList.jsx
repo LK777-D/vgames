@@ -15,7 +15,7 @@ const GamesList = (props) => {
         {props.text} : {search}
       </h3>
       <div className="searchedgame">
-        {games.slice(0, 4).map((game) => (
+        {games.slice(0, 6).map((game) => (
           <GameCard
             key={game.id}
             name={game.name}

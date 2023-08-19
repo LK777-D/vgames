@@ -1,6 +1,6 @@
 .recomendation {
   width: 100%;
-  min-height: 12rem;
+  min-height: 10rem;
   height: auto;
   padding: 1rem;
 }
@@ -18,10 +18,11 @@
 }
 
 .recomendedcontent img {
-  min-height: 35%;
-  min-width: 30%;
+  max-height: 25%;
+  width: 30%;
   transition: transform 0.3s ease;
   border-radius: 10px;
+  /* padding: 1rem; */
 }
 .recomendedcontent img:hover {
   transform: scale(1.1);

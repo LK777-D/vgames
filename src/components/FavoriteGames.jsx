@@ -10,13 +10,15 @@ const FavoriteGames = () => {
 
   return (
     <section className="favssection">
-      {favs.length < 1 && (
+      {favs.length < 1 ? (
         <div className="emptyfavs">
           <h2>Favorite Games List Is Empty</h2>
           <Link to="/">
             <Button text="Add Games" />
           </Link>
         </div>
+      ) : (
+        <h2>Your Favorite Games</h2>
       )}
       <div className="favs">
         {favs.map((game) => (

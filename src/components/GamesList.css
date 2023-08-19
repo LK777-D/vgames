@@ -35,7 +35,7 @@
   .searchedgame {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
+    gap: 2rem;
     text-align: center;
     place-items: center;
   }
