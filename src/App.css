@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
+
 #root {
   /* max-width: 1280px; */
   max-width: 100vw;
@@ -7,7 +10,12 @@
   padding: 0;
   /* overflow: hidden; */
 }
-
+.font1 {
+  font-family: "Paytone One", sans-serif;
+}
+.font2 {
+  font-family: "Prompt", sans-serif;
+}
 .added {
   color: yellow;
 }
