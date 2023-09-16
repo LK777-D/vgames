@@ -9,9 +9,9 @@ const GamesList = (props) => {
   const { search, favsColor } = useContext(GamesContext);
 
   return (
-    <section className="gameslist">
+    <section className="gameslist" id="games">
       <h3 className="searchheading font1">
-        {props.text} : {search}
+        {props.text} {search}
       </h3>
       <div className="small">
         {props.gamesList.slice(0, 8).map((game) => (

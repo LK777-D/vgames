@@ -24,7 +24,7 @@ const Home = (props) => {
       <GamesList
         gameHandler={props.gameHandler}
         gamesList={props.gamesList}
-        text="Search Results For"
+        text="Search Results For :"
       />
       <Recomendation
         img1={samp}

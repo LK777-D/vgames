@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Favorites from "./pages/Favorites";
 import Alert from "./components/UI/Alert";
+import ScrollFromTop from "./components/ScrollFromTop";
 /* eslint-disable react/prop-types */
 
 export const GamesContext = createContext();
@@ -69,6 +70,8 @@ function App() {
         {showRemoveAlert && <Alert alertText="Removed From Favorites!" />}
         <Navbar />
         <Header />
+
+        <ScrollFromTop />
         <Routes>
           <Route
             path="/"

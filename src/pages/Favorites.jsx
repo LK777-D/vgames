@@ -14,7 +14,11 @@ const Favorites = (props) => {
   return (
     <>
       <GamesList
-        text="Your Favorite Games List"
+        text={`${
+          props.gamesList.length > 0
+            ? "Your Favirote Games List"
+            : "Favorite Games List Is Empty"
+        }`}
         gameHandler={props.gameHandler}
         gamesList={props.gamesList}
       />

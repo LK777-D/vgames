@@ -1,6 +1,6 @@
 import "./Navbar.css";
-// import logo from "../assets//logo-color.png";
-import { NavLink } from "react-router-dom";
+
+import { NavLink, Link } from "react-router-dom";
 import { useContext, useEffect } from "react";
 import { GamesContext } from "../App";
 
@@ -13,8 +13,10 @@ const Navbar = () => {
   return (
     <nav className="navbar ">
       <div className="logo">
-        <span className="firstletter">V</span>
-        <span className="logotext">Games</span>
+        <Link to="/">
+          <span className="firstletter">V</span>
+          <span className="logotext">Games</span>
+        </Link>
       </div>
 
       <div className="navigation font2">

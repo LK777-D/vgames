@@ -1,23 +1,23 @@
-import Atropos from "atropos/react";
 import "atropos/css";
 import "./Header.css";
-import img from "../assets/headerimg.jpeg";
+import img from "../assets/headerimg2.jpg";
 import Button from "./UI/Button";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
     <>
-      <Atropos className="my-atropos">
-        <div className="headerwrapper">
-          <div className="headercontent">
-            <h2>Everything You Need To Know About Video Games</h2>
+      <div className="headerwrapper">
+        <div className="headercontent">
+          <h2>Everything You Need To Know About Video Games</h2>
+          <Link to="games" smooth={true}>
             <Button text="Explore" />
-          </div>
-          <div className="imgwrapper">
-            <img src={img} />
-          </div>
+          </Link>
         </div>
-      </Atropos>
+        <div className="headerimgwrapper">
+          <img src={img} />
+        </div>
+      </div>
     </>
   );
 };

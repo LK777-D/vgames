@@ -11,6 +11,9 @@
   /* overflow: hidden; */
   font-family: "Paytone One", sans-serif;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 .font1 {
   font-family: "Paytone One", sans-serif;
 }
