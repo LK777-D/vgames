@@ -9,13 +9,11 @@
   margin: 0;
   padding: 0;
   /* overflow: hidden; */
+  font-family: "Paytone One", sans-serif;
 }
 .font1 {
   font-family: "Paytone One", sans-serif;
 }
 .font2 {
   font-family: "Prompt", sans-serif;
-}
-.added {
-  color: yellow;
 }

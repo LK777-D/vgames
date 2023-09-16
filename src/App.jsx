@@ -70,8 +70,16 @@ function App() {
         <Navbar />
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/favorites" element={<Favorites />} />
+          <Route
+            path="/"
+            element={<Home gamesList={games} gameHandler={addToFavsHandler} />}
+          />
+          <Route
+            path="/favorites"
+            element={
+              <Favorites gamesList={favs} gameHandler={removeFromFavsHandler} />
+            }
+          />
         </Routes>
         <Footer />
       </GamesContext.Provider>

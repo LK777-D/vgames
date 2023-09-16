@@ -1,8 +1,7 @@
 .recomendation {
-  width: 100%;
+  width: 92%;
+  margin: 3rem auto;
   min-height: 10rem;
-  height: auto;
-  padding: 1rem;
 }
 .reccontainer {
   width: 100%;
@@ -18,12 +17,22 @@
 }
 
 .recomendedcontent img {
-  max-height: 25%;
-  width: 30%;
+  max-height: 10rem;
+  max-width: 11rem;
   transition: transform 0.3s ease;
   border-radius: 10px;
+  cursor: pointer;
   /* padding: 1rem; */
 }
 .recomendedcontent img:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
+}
+
+@media (min-width: 600px) {
+  .recomendation {
+    width: 95%;
+  }
+  .recomendedcontent img {
+    max-width: 17rem;
+  }
 }

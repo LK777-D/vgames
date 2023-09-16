@@ -25,18 +25,18 @@ const Carousel = () => {
         setIndex(0);
       }
     };
-    const timeout = setTimeout(handleNextImage, 1500);
+    const timeout = setTimeout(handleNextImage, 2500);
     return () => clearTimeout(timeout);
   }, [data.length, index]);
 
   return (
-    <section className="carousel">
-      <h2 className="gradient-text">Most Played Games Of The 2023 </h2>
-      <div className="carouselimg">
-        <img src={data[index].img} width="650px" height="350px" />
+    <section className="carousel font1">
+      <h2>Most Played Games Of The 2023 </h2>
+      <div className="imgwrapper">
+        <img src={data[index].img} />
       </div>
-      <div className="carouseltext">
-        <h2>{data[index].text}</h2>
+      <div>
+        <h2 className="font1">{data[index].text}</h2>
       </div>
     </section>
   );

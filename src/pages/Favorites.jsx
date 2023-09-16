@@ -1,25 +1,32 @@
-import FavoriteGames from "../components/FavoriteGames";
 import "./Favorites.css";
-import History from "../components/History";
-import Recomendation from "../components/Recomendation";
 import gta from "../assets/gta5.jpg";
-import mafia from "../assets/mafia.jpg";
+import nfs from "../assets/nfs.jpg";
 import fifa from "../assets/fifa.jpg";
 import mobile from "../assets/legends.jpeg";
-import nba from "../assets/nba.jpg";
+import vice from "../assets/vicecity.avif";
+import dota2 from "../assets/dota2.jpg";
+import san from "../assets/sa.webp";
+import GamesList from "../components/GamesList";
+import Recomendation from "../components/Recomendation";
+/* eslint-disable react/prop-types */
 
-const Favorites = () => {
+const Favorites = (props) => {
   return (
     <>
-      <FavoriteGames />
-      <History />
+      <GamesList
+        text="Your Favorite Games List"
+        gameHandler={props.gameHandler}
+        gamesList={props.gamesList}
+      />
       <Recomendation
-        text="Recomended For You"
         img1={gta}
-        img2={mafia}
+        img2={nfs}
         img3={fifa}
         img4={mobile}
-        img5={nba}
+        img5={vice}
+        img6={san}
+        img7={dota2}
+        text="Recomended For You"
       />
     </>
   );

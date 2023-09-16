@@ -11,13 +11,13 @@ const Navbar = () => {
     searchGameHandler();
   }, []);
   return (
-    <nav className="navbar">
+    <nav className="navbar ">
       <div className="logo">
         <span className="firstletter">V</span>
         <span className="logotext">Games</span>
       </div>
 
-      <div className="navigation">
+      <div className="navigation font2">
         <NavLink to="/" className="navlink">
           Home
         </NavLink>

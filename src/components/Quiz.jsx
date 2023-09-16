@@ -121,10 +121,13 @@ const Quiz = () => {
   const className = `quiz ${start ? "none" : ""}`;
   return (
     <>
-      <section className="quizwrapper">
+      <section className="quizwrapper font1">
         {start && (
           <div>
-            <h3>Participate In - Video Game Master Quiz</h3>
+            <h4 className="font1">
+              {" "}
+              Test Your Knowladge - Video Games Master Quiz
+            </h4>
             <Button onClick={startHandler} text="Start Quiz" />
           </div>
         )}
@@ -147,9 +150,7 @@ const Quiz = () => {
           </div>
         ) : (
           <div>
-            <h3>
-              You Finished ~The Video Game Master Qiuz~. Your Score Is : {score}
-            </h3>
+            <h3>Video Games Master Quiz - Your Score : {score}</h3>
             <Button text="Restart" onClick={restartHandler}></Button>
           </div>
         )}
