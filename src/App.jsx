@@ -19,6 +19,7 @@ function App() {
   const [favsColor, setfavsColor] = useState(false);
   const [showAddAlert, setShowAddAlert] = useState(false);
   const [showRemoveAlert, setShowRemoveAlert] = useState(false);
+  const [gameExistAlert, setGameExistAlert] = useState(false);
   const fetchGames = async () => {
     const url = `https://api.rawg.io/api/games?key=b43b2252367d458eaefb415f8c07cbfe&search=${search}`;
 
@@ -34,12 +35,19 @@ function App() {
   };
 
   const addToFavsHandler = (game) => {
+    if (favs.some((favgame) => favgame.id === game.id)) {
+      setGameExistAlert(true);
+      setTimeout(() => {
+        setGameExistAlert(false);
+      }, 1200);
+      return;
+    }
     setFavs((prevFavs) => [...prevFavs, game]);
     setfavsColor(true);
     setShowAddAlert(true);
     setTimeout(() => {
       setShowAddAlert(false);
-    }, 1000);
+    }, 1200);
   };
 
   const removeFromFavsHandler = (game) => {
@@ -48,7 +56,7 @@ function App() {
     setShowRemoveAlert(true);
     setTimeout(() => {
       setShowRemoveAlert(false);
-    }, 1000);
+    }, 1200);
   };
 
   return (
@@ -68,6 +76,7 @@ function App() {
       >
         {showAddAlert && <Alert alertText="Added To favorites!" />}
         {showRemoveAlert && <Alert alertText="Removed From Favorites!" />}
+        {gameExistAlert && <Alert alertText="Can't Add Same Game Twice " />}
         <Navbar />
         <Header />
 
