@@ -1,0 +1,122 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+.characters span {
+  font-size: 1.3rem;
+}
+.wrapp {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  width: 95%;
+  height: 230px;
+  transition: all 400ms;
+  margin: 0 auto;
+}
+.trevor {
+  background-image: url("../assets/trevor.webp");
+}
+.tommy {
+  background-image: url("../assets//tommy.webp");
+}
+.cj {
+  background-image: url("../assets/cj.jpg");
+}
+.ryder {
+  background-image: url("../assets/ryder.jpg");
+}
+.box {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 400ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.box::after {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 20px;
+  background-color: rgb(0, 0, 0, 0.7);
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+  transform: translateY(60px);
+  opacity: 0;
+  transition: all 400ms;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 3%;
+}
+
+.wrapp:hover .box {
+  filter: grayscale(100%) opacity(74%);
+}
+
+.box:hover::after {
+  transform: translatey(0);
+  opacity: 1;
+  transition-delay: 400ms;
+}
+.wrapp .box:hover {
+  filter: grayscale(0%) opacity(100%);
+}
+.wrapp:has(.tommy:hover) {
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.wrapp:has(.cj:hover) {
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+.wrapp:has(.ryder:hover) {
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+.wrapp:has(.trevor:hover) {
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+
+.box:nth-child(odd) {
+  transform: translateY(-10px);
+}
+.box:nth-child(even) {
+  transform: translateY(10px);
+}
+
+@media (min-width: 600px) {
+  .wrapp {
+    width: 80%;
+    height: 300px;
+  }
+  .characters span {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 900px) {
+  .wrapp {
+    width: 75%;
+    height: 350px;
+    gap: 1rem;
+  }
+  .characters span {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1100px) {
+  .wrapp {
+    width: 55rem;
+    height: 500px;
+    gap: 1.2rem;
+  }
+  .characters span {
+    font-size: 2rem;
+  }
+  .box::after {
+    font-size: 1.2rem;
+  }
+}

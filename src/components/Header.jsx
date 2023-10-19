@@ -1,24 +1,23 @@
 import "atropos/css";
 import "./Header.css";
-import img from "../assets/headerimg2.jpg";
+import img from "../assets/controller.png";
 import Button from "./UI/Button";
 import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <>
-      <div className="headerwrapper">
-        <div className="headercontent">
-          <h2>Everything You Need To Know About Video Games</h2>
-          <Link to="games" smooth={true}>
-            <Button text="Explore" />
-          </Link>
-        </div>
-        <div className="headerimgwrapper">
-          <img src={img} />
-        </div>
+    <header className="header">
+      <div className="texts ">
+        <h1 className="robotech">Gaming World Awaits You</h1>
+        <span className="pacifico">
+          Unlock the Adventure: Explore, Discover, and Play a World of Games in
+          Our Extensive Catalog
+        </span>
       </div>
-    </>
+      <div>
+        <img src={img} />
+      </div>
+    </header>
   );
 };
 

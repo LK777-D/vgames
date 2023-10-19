@@ -7,16 +7,19 @@
 }
 .logotext {
   font-family: "Paytone One", sans-serif;
-  color: aqua;
 }
 .logo {
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: rgb(167, 11, 11);
+  text-shadow: 3px 3px 15px red;
+  transition: 0.3s ease;
+}
+.logo:hover {
+  text-shadow: 4px 4px 17px rgb(253, 25, 25);
 }
 .navbar {
   color: #eee;
-
+  font-family: "Robotech", sans-serif !important;
   max-height: 8rem;
   width: 100%;
   display: flex;
@@ -30,16 +33,18 @@
 .navigation {
   display: flex;
   gap: 0.8rem;
+  font-family: "Robotech", sans-serif !important;
 }
 .navlink {
   text-decoration: none;
-  color: rgb(31, 191, 202);
+  color: #fff;
   font-size: 1.2rem;
-  font-family: "Paytone One", sans-serif;
+  font-family: "Robotech", sans-serif;
   transition: color 0.2s ease;
+  font-size: 1.5rem;
 }
 .navlink:hover {
-  color: purple;
+  color: rgb(184, 7, 7);
 }
 
 .search {
@@ -54,7 +59,7 @@
   min-height: 20px;
   color: white;
   text-align: center;
-  border: 2px solid rgb(109, 64, 214);
+  border: 2px solid rgb(201, 4, 4);
   border-radius: 5px;
   font-family: "Paytone One", sans-serif;
   transition: all 1s ease;
@@ -63,9 +68,9 @@
 
 .input:focus {
   color: white;
-  background-color: #780baa;
-  outline-color: rgb(109, 64, 214);
-  box-shadow: -3px -3px 15px rgb(109, 64, 214);
+  background-color: #911818;
+  outline-color: rgb(148, 34, 34);
+  box-shadow: -3px -3px 15px rgb(214, 64, 64);
   transition: 0.1s;
   transition-property: box-shadow;
 }
@@ -82,7 +87,7 @@
   color: rgb(234, 234, 234);
   font-weight: 700;
   transition: 0.6s;
-  box-shadow: 0px 0px 60px #1f4c65;
+  box-shadow: 0px 0px 60px #6b1f1f;
   -webkit-box-reflect: below 10px
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
   font-family: "Paytone One", sans-serif;
@@ -93,11 +98,11 @@
 }
 
 .navbtn:hover {
-  background: rgb(54, 18, 112);
+  background: rgb(173, 21, 21);
   background: linear-gradient(
     270deg,
-    rgba(44, 14, 83, 0.681) 0%,
-    rgba(105, 57, 168, 0.873) 60%
+    rgba(150, 15, 15, 0.681) 0%,
+    rgba(179, 26, 26, 0.873) 60%
   );
   color: rgb(108, 175, 180);
 }

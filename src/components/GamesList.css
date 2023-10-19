@@ -1,5 +1,7 @@
 .gameslist {
   width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
   min-height: 15rem;
   text-align: center;
   color: white;
@@ -34,8 +36,7 @@
 }
 .searchheading {
   margin: 3rem 0;
-  color: white !important;
-  font-size: 1.3rem;
+  color: red !important;
 }
 @media (min-width: 750px) and (max-width: 900px) {
   .small {
@@ -71,7 +72,7 @@
   }
   .searchheading {
     text-align: left;
-    font-size: 1.7rem !important;
+    font-size: 3rem !important;
     margin-left: 2.5rem;
     text-decoration: underline;
   }

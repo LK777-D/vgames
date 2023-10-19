@@ -28,27 +28,31 @@ const Recomendation = (props) => {
   };
 
   return (
-    <section className="recomendation font1">
-      <h2>{props.text}</h2>
-      <div className="reccontainer">
-        <div
-          ref={scrollContainerRef}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseUp}
-          className="recomendedcontent"
-        >
-          <img src={props.img1} />
-          <img src={props.img2} />
-          <img src={props.img3} />
-          <img src={props.img4} />
-          <img src={props.img5} />
-          <img src={props.img6} />
-          <img src={props.img7} />
+    <>
+      <div className="redline mt"></div>
+      <section className="recomendation robotech">
+        <h1 className="gradienttext">{props.text}</h1>
+        <div className="reccontainer">
+          <div
+            ref={scrollContainerRef}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
+            className="recomendedcontent"
+          >
+            <img src={props.img1} />
+            <img src={props.img2} />
+            <img src={props.img3} />
+            <img src={props.img4} />
+            <img src={props.img5} />
+            <img src={props.img6} />
+            <img src={props.img7} />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <div className="redline mb"></div>
+    </>
   );
 };
 

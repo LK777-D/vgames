@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 #root {
   /* max-width: 1280px; */
   max-width: 100vw;
@@ -11,6 +13,13 @@
   /* overflow: hidden; */
   font-family: "Paytone One", sans-serif;
 }
+@font-face {
+  font-family: "Robotech";
+  src: url(../public/fonts/ROBOTECH\ GP.ttf);
+}
+.robotech {
+  font-family: "Robotech", sans-serif;
+}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -19,4 +28,34 @@
 }
 .font2 {
   font-family: "Prompt", sans-serif;
+}
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+.gradienttext {
+  background: #cf0808;
+  background: -webkit-linear-gradient(
+    to right,
+    #cf0808 14%,
+    #500b47 34%,
+    #88137e 50%,
+    #600acf 100%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    #cf0808 14%,
+    #ff2667 34%,
+    #ff3729 50%,
+    #600acf 100%
+  );
+  background: linear-gradient(
+    to right,
+    #cf0808 14%,
+    #ff2667 34%,
+    #ff3729 50%,
+    #600acf 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

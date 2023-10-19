@@ -11,20 +11,19 @@ const Navbar = () => {
     searchGameHandler();
   }, []);
   return (
-    <nav className="navbar ">
-      <div className="logo">
+    <nav className="navbar   ">
+      <div className="logo robotech">
         <Link to="/">
-          <span className="firstletter">V</span>
-          <span className="logotext">Games</span>
+          <span className="logo">VGames</span>
         </Link>
       </div>
 
-      <div className="navigation font2">
-        <NavLink to="/" className="navlink">
-          Home
+      <div className="navigation ">
+        <NavLink to="/" className="navlink ">
+          Games Library
         </NavLink>
         <NavLink to="/favorites" className="navlink">
-          Favorite Games
+          Favorites
         </NavLink>
       </div>
       <div className="search">

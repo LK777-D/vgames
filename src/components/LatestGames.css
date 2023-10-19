@@ -1,0 +1,28 @@
+.smgames h1 {
+  color: red;
+}
+.smcont {
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+  height: auto;
+  padding: 1rem 2rem;
+}
+.smcont::-webkit-scrollbar {
+  margin-top: 1rem;
+  display: inline; /* or you can use 'initial' */
+  color: red;
+  width: 1px;
+  height: 5px;
+}
+
+/* Handle */
+.smcont::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #d10505;
+  border-radius: 100%;
+  height: 3px;
+}
+.smcont::-webkit-scrollbar-thumb:hover {
+  background: #6e0505;
+}

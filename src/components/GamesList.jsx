@@ -10,7 +10,7 @@ const GamesList = (props) => {
 
   return (
     <section className="gameslist" id="games">
-      <h3 className="searchheading font1">
+      <h3 className="searchheading robotech">
         {props.text} {search}
       </h3>
       <div className="small">
@@ -23,6 +23,7 @@ const GamesList = (props) => {
             image={game.background_image}
             onClick={() => props.gameHandler(game)}
             favsColor={favsColor}
+            width="85%"
           />
         ))}
       </div>
