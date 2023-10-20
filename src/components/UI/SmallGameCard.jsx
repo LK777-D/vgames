@@ -1,11 +1,11 @@
-import "./SmGameCard2.css";
+import "./SmallGameCard.css";
 import xbox from "../../assets/xbox.svg";
 import ps from "../../assets/playstation.svg";
 import pc from "../../assets/laptop.svg";
 /* eslint-disable react/prop-types */
 //smcard
 
-const SmGameCard = (props) => {
+const SmallGameCard = (props) => {
   return (
     <div className="smcardcont">
       <div className="cardimgcont">
@@ -32,4 +32,4 @@ const SmGameCard = (props) => {
   );
 };
 
-export default SmGameCard;
+export default SmallGameCard;

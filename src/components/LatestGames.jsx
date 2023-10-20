@@ -1,5 +1,5 @@
 import "./LatestGames.css";
-import SmGameCard from "./UI/SmGameCard";
+import SmallGameCard from "./UI/SmallGameCard";
 /* eslint-disable react/prop-types */
 
 const LatestGames = (props) => {
@@ -8,7 +8,7 @@ const LatestGames = (props) => {
       <h1 className="robotech">{props.text}</h1>
       <div className="smcont">
         {props.games.map((game) => (
-          <SmGameCard
+          <SmallGameCard
             key={game.id}
             image={game.url}
             name={game.name}
