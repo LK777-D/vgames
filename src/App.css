@@ -15,8 +15,9 @@
 }
 @font-face {
   font-family: "Robotech";
-  src: url(../public/fonts/ROBOTECH\ GP.ttf);
+  src: local("Robotech"), url(../public/fonts/ROBOTECH\ GP.ttf) format("tff");
 }
+
 .robotech {
   font-family: "Robotech", sans-serif;
 }
