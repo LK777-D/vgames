@@ -9,6 +9,7 @@ import Favorites from "./pages/Favorites";
 import Alert from "./components/UI/Alert";
 import ScrollFromTop from "./components/ScrollFromTop";
 /* eslint-disable react/prop-types */
+// app
 
 export const GamesContext = createContext();
 
