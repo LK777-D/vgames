@@ -40,3 +40,7 @@ h1 {
 button {
   cursor: pointer;
 }
+@font-face {
+  font-family: "robotech";
+  src: local("robotech"), url(./fonts/robotech.ttf) format("tff");
+}

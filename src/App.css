@@ -14,8 +14,8 @@
   font-family: "Paytone One", sans-serif;
 }
 @font-face {
-  font-family: "Robotech";
-  src: local("Robotech"), url(../public/fonts/ROBOTECH\ GP.ttf) format("tff");
+  font-family: "robotech";
+  src: local("robotech"), url(./fonts/robotech.ttf) format("tff");
 }
 
 .robotech {
