@@ -1,4 +1,4 @@
-import "./SmGameCard.css";
+import "./SmGameCard2.css";
 import xbox from "../../assets/xbox.svg";
 import ps from "../../assets/playstation.svg";
 import pc from "../../assets/laptop.svg";
