@@ -2,7 +2,7 @@ import "./Character.css";
 const Character = () => {
   return (
     <section className="characters">
-      <span className="robotech gradienttext">
+      <span className="sigma gradienttext">
         Scariest Characters From GTA Series
       </span>
       <div className="wrapp">

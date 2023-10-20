@@ -30,13 +30,13 @@ const Carousel = () => {
   }, [data.length, index]);
 
   return (
-    <section className="carousel robotech">
+    <section className="carousel sigma">
       <h2>Most Played Games Of The 2023 </h2>
       <div className="imgwrapper">
         <img src={data[index].img} />
       </div>
       <div>
-        <h2 className="robotech">{data[index].text}</h2>
+        <h2 className="sigma">{data[index].text}</h2>
       </div>
     </section>
   );

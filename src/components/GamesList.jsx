@@ -10,7 +10,7 @@ const GamesList = (props) => {
 
   return (
     <section className="gameslist" id="games">
-      <h3 className="searchheading robotech">
+      <h3 className="searchheading sigma">
         {props.text} {search}
       </h3>
       <div className="small">

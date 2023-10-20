@@ -5,7 +5,7 @@ import SmallGameCard from "./UI/SmallGameCard";
 const LatestGames = (props) => {
   return (
     <section className="smgames">
-      <h1 className="robotech">{props.text}</h1>
+      <h1 className="sigma">{props.text}</h1>
       <div className="smcont">
         {props.games.map((game) => (
           <SmallGameCard

@@ -42,5 +42,9 @@ button {
 }
 @font-face {
   font-family: "robotech";
-  src: local("robotech"), url(./fonts/robotech.ttf) format("tff");
+  src: local("robotech"), url(./fonts/ROBOTECH\ GP.ttf) format("tff");
+}
+@font-face {
+  font-family: "robotech";
+  src: local("robotech"), url(../public/fonts/ROBOTECH\ GP.ttf) format("tff");
 }

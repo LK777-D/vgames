@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
 #root {
   /* max-width: 1280px; */
   max-width: 100vw;
@@ -15,9 +15,15 @@
 }
 @font-face {
   font-family: "robotech";
-  src: local("robotech"), url(./fonts/robotech.ttf) format("ttf");
+  src: local("robotech"), url(./fonts/ROBOTECH\ GP.ttf) format("tff");
 }
-
+@font-face {
+  font-family: "robotech";
+  src: local("robotech"), url(../public/fonts/ROBOTECH\ GP.ttf) format("tff");
+}
+.sigma {
+  font-family: "Sigmar", sans-serif;
+}
 .robotech {
   font-family: "Robotech", sans-serif;
 }

@@ -1,6 +1,7 @@
 .smgames h1 {
   color: red;
   text-align: center;
+  font-size: 2rem;
 }
 .smcont {
   display: flex;

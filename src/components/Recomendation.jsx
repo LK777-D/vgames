@@ -30,7 +30,7 @@ const Recomendation = (props) => {
   return (
     <>
       <div className="redline mt"></div>
-      <section className="recomendation robotech">
+      <section className="recomendation sigma">
         <h1 className="gradienttext">{props.text}</h1>
         <div className="reccontainer">
           <div

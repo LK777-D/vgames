@@ -7,6 +7,10 @@
 
   padding-bottom: 2rem;
 }
+.recomendation h1 {
+  font-size: 1.55em;
+  text-align: center;
+}
 .mt {
   margin-top: 4.5rem;
 }
@@ -49,6 +53,10 @@
 @media (min-width: 600px) {
   .recomendation {
     width: 95%;
+  }
+  .recomendation h1 {
+    font-size: 3rem;
+    text-align: left;
   }
   .recomendedcontent img {
     max-width: 17rem;

@@ -25,7 +25,7 @@ const SmallGameCard = (props) => {
         </div>
         <div className="smnamerating">
           <span>{props.name}</span>
-          <span className="smrating robotech">{props.rating}%</span>
+          <span className="smrating sigma">{props.rating}%</span>
         </div>
       </div>
     </div>

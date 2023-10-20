@@ -11,7 +11,7 @@
 .logo {
   font-size: 2.5rem;
   color: rgb(167, 11, 11);
-  text-shadow: 3px 3px 15px red;
+  text-shadow: 1px 1px 10px red;
   transition: 0.3s ease;
 }
 .logo:hover {
@@ -20,7 +20,7 @@
 }
 .navbar {
   color: #eee;
-  font-family: "Robotech", sans-serif !important;
+  font-family: "Sigmar", sans-serif !important;
   max-height: 8rem;
   width: 100%;
   display: flex;
@@ -40,7 +40,7 @@
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
-  font-family: "Robotech", sans-serif;
+  font-family: "Sigmar", sans-serif;
   transition: color 0.2s ease;
   font-size: 1.5rem;
 }

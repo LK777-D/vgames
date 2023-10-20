@@ -12,7 +12,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav className="navbar   ">
-      <div className="logo robotech">
+      <div className="logo sigma">
         <Link to="/">
           <span className="logo">VGames</span>
         </Link>

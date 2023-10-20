@@ -36,7 +36,7 @@ const GameCard = (props) => {
         </div>
         <div className="namerating">
           <span>{props.name}</span>
-          <span className="rating robotech">
+          <span className="rating sigma">
             {(props.rating * 20).toFixed(1)}%
           </span>
         </div>
