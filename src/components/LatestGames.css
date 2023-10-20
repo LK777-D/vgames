@@ -1,5 +1,6 @@
 .smgames h1 {
   color: red;
+  text-align: center;
 }
 .smcont {
   display: flex;
@@ -25,4 +26,13 @@
 }
 .smcont::-webkit-scrollbar-thumb:hover {
   background: #6e0505;
+}
+
+@media (min-width: 900px) {
+  .smgames h1 {
+    text-align: left;
+    margin-left: 3rem;
+    text-decoration: underline;
+    font-size: 3.2rem;
+  }
 }

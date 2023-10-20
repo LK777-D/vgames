@@ -16,6 +16,7 @@
 }
 .logo:hover {
   text-shadow: 4px 4px 17px rgb(253, 25, 25);
+  color: rgb(219, 13, 13);
 }
 .navbar {
   color: #eee;
