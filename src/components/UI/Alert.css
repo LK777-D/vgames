@@ -14,8 +14,8 @@
   font-weight: bolder;
   font-size: 1.2rem;
   /* display: none; */
-  width: 17%;
-  padding: 0.5rem 0;
+  width: 35%;
+  padding: 0.5rem 1rem;
   margin: 0 auto;
   border-radius: 5px;
   text-align: center;
@@ -31,5 +31,10 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+@media (min-width: 700px) {
+  .alert {
+    width: 20%;
   }
 }
