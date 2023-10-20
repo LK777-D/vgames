@@ -3,6 +3,7 @@ import xbox from "../../assets/xbox.svg";
 import ps from "../../assets/playstation.svg";
 import pc from "../../assets/laptop.svg";
 /* eslint-disable react/prop-types */
+//smcard
 
 const SmGameCard = (props) => {
   return (
